@@ -21,5 +21,5 @@ elif método == 4:
     parcela = total / parcelas
     print('Sua compra no valor de R${:.2f} passou para R${:.2f} por causa de 20% de Juros.'.format(compra, juros))
     print('R${} parcelado em {}x fica R${:.2f} por mês.'.format(juros, parcelas, parcela))
-elif método == 5 or 6 or 7 or 8 or 9 or 10:
+else:
     print('\033[31mOpção inválida.\033[m')
